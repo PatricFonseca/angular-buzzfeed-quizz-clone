@@ -1,55 +1,134 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Escolha suas comidas favoritas e te diremos como 2024 será para você ?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Primeiro, escolha um aperitivo:",
+      "options": [
+        {
+          "id": 1,
+          "name": "Tábua de queijos",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Salada",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Sushi",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Mussarela empanada",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Escolha seu prato principal:",
+      "options": [
+        {
+          "id": 1,
+          "name": "Massa",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Salada",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "X-burguer",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Pizza",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual dessas comidas você odeia?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Fast food",
+          "alias": "B"
+        },
+        {
+          "id": 2,
+          "name": "Peixe",
+          "alias": "A"
+        },
+        {
+          "id": 3,
+          "name": "Couve de Bruxelas",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Azeitonas",
+          "alias": "B"
+        }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "O que você DEVORARIA agora?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Melancia",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Salgadinho",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Sorvete",
+          "alias": "A"
+        }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Escolha uma sobremesa:",
+      "options": [
+        {
+          "id": 1,
+          "name": "Pudim",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Cupcakes",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Pave",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Torta alemã",
+          "alias": "B"
+        }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você viajará muito!",
+    "B": "Você ficará famoso(a)!"
   }
 }
