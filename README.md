@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 #Project
 
-[img]["https://github.com/PatricFonseca/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/project.png"]
+![alt text](https://github.com/PatricFonseca/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/project.png)
 
 ## Development server
 
