@@ -14,6 +14,7 @@ export class QuizzComponent implements OnInit {
 
   answers: string[] = [];
   answerSelected: string = '';
+  imgUrlAnswerSelected: string = '';
 
   questionIndex: number = 0;
   questionMaxIndex: number = 0;
@@ -58,10 +59,17 @@ export class QuizzComponent implements OnInit {
     } else {
       const finalAnswer: string = await this.checkResult(this.answers);
       this.finished = true;
-      this.answerSelected =
-        quizz_questions.results[
-          finalAnswer as keyof typeof quizz_questions.results
-        ];
+      // this.answerSelected =
+      //   quizz_questions.results[
+      //     finalAnswer as keyof typeof quizz_questions.results
+      //   ];
+
+      const selected = quizz_questions.results.filter(
+        (question) => question.option === finalAnswer
+      )[0];
+
+      this.answerSelected = selected.answer;
+      this.imgUrlAnswerSelected = selected.imgUrl;
     }
   }
 

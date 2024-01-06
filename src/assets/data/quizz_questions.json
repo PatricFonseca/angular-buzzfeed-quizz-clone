@@ -127,8 +127,16 @@
       ]
     }
   ],
-  "results": {
-    "A": "Você viajará muito!",
-    "B": "Você ficará famoso(a)!"
-  }
+  "results": [
+    {
+      "option": "A",
+      "answer": "Você viajará muito!",
+      "imgUrl": "https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg"
+    },
+    {
+      "option": "B",
+      "answer": "Você ficará famoso(a)!",
+      "imgUrl": "https://images.unsplash.com/photo-1528984606971-b811c85ffc92?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
 }
